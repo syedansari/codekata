@@ -1,5 +1,5 @@
-cd=raw_input()
-if((cd>='a' and cd<='z' or cd>='A' and cd<='Z')):
+xy=raw_input()
+if((xy>='a' and xy<='z' or xy>='A' and xy<='Z')):
     print("Alphabet")
 else:
     print("No")
