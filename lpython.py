@@ -1,6 +1,6 @@
-k=int(input())
+l=int(input())
 count=0
-while(k>0):
+while(l>0):
     count=count+1
-    k=k//10
+    l=l//10
 print(count)
