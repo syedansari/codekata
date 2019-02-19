@@ -1,0 +1,10 @@
+e=int(raw_input())
+f=e%10
+g=e/10
+h=f%10
+i=f/10
+j=f**3+h**3+i**3
+if(j==e):
+    print("yes")
+else:
+    print("no")
